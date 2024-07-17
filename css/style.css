@@ -1,0 +1,36 @@
+:root {
+  --bg-color: #f6f5f2;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+.wrap {
+  width: 100%;
+  min-height: 100%;
+}
+
+.page {
+  width: inherit;
+  min-height: inherit;
+  background-color: var(--bg-color);
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 67px;
+  height: 64px;
+  min-width: 40px;
+  min-height: 40px;
+}
